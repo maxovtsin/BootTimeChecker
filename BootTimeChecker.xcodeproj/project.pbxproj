@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E9D31B6523B73B0200EAB1DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D31B6423B73B0200EAB1DA /* AppDelegate.m */; };
-		E9D31B6823B73B0200EAB1DA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D31B6723B73B0200EAB1DA /* SceneDelegate.m */; };
 		E9D31B6B23B73B0200EAB1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D31B6A23B73B0200EAB1DA /* ViewController.m */; };
 		E9D31B6E23B73B0200EAB1DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D31B6C23B73B0200EAB1DA /* Main.storyboard */; };
 		E9D31B7023B73B0300EAB1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D31B6F23B73B0300EAB1DA /* Assets.xcassets */; };
@@ -20,8 +19,6 @@
 		E9D31B6023B73B0200EAB1DA /* BootTimeChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootTimeChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D31B6323B73B0200EAB1DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9D31B6423B73B0200EAB1DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9D31B6623B73B0200EAB1DA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E9D31B6723B73B0200EAB1DA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E9D31B6923B73B0200EAB1DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E9D31B6A23B73B0200EAB1DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E9D31B6D23B73B0200EAB1DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +60,6 @@
 			children = (
 				E9D31B6323B73B0200EAB1DA /* AppDelegate.h */,
 				E9D31B6423B73B0200EAB1DA /* AppDelegate.m */,
-				E9D31B6623B73B0200EAB1DA /* SceneDelegate.h */,
-				E9D31B6723B73B0200EAB1DA /* SceneDelegate.m */,
 				E9D31B6923B73B0200EAB1DA /* ViewController.h */,
 				E9D31B6A23B73B0200EAB1DA /* ViewController.m */,
 				E9D31B6C23B73B0200EAB1DA /* Main.storyboard */,
@@ -149,7 +144,6 @@
 				E9D31B6B23B73B0200EAB1DA /* ViewController.m in Sources */,
 				E9D31B6523B73B0200EAB1DA /* AppDelegate.m in Sources */,
 				E9D31B7623B73B0300EAB1DA /* main.m in Sources */,
-				E9D31B6823B73B0200EAB1DA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYCJCMJ4B5;
 				INFOPLIST_FILE = BootTimeChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FYCJCMJ4B5;
 				INFOPLIST_FILE = BootTimeChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
